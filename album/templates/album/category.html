@@ -9,7 +9,7 @@
 {% block maincontent %}
 <div>
 	{% for c in object_list %}
-		<a href="{% url 'category_detail' c.pk %}">
+		<a href="{% url 'category-detail' c.pk %}">
 			{{ c.name }}
 		</a>
 	{% endfor %}
